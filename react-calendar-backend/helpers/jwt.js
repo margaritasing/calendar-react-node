@@ -12,7 +12,7 @@ const generarJWT = ( uid, name ) => {
 
             if ( err ){
                 console.log(err);
-                reject('No se pudo generar el token');
+                reject('No se genero el token');
             }
 
             resolve( token );

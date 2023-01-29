@@ -42,10 +42,10 @@ export const LoginScreen = () => {
 
 
     return (
-        <div className="container login-container">
+        <div className="container login-container bg-dark">
             <div className="row">
                 <div className="col-md-6 login-form-1">
-                    <h3>Ingreso</h3>
+                    <h3 className="text-white">Ingreso</h3>
                     <form onSubmit={ handleLogin }>
                         <div className="form-group">
                             <input 
@@ -78,7 +78,7 @@ export const LoginScreen = () => {
                 </div>
 
                 <div className="col-md-6 login-form-2">
-                    <h3>Registro</h3>
+                    <h2>Registro</h2>
                     <form onSubmit={ handleRegister }>
                         <div className="form-group">
                             <input
